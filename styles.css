@@ -1,0 +1,94 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center; /*o align content center, (si en flex direction es column*/
+    padding: 10%;
+    box-sizing: border-box;
+}
+
+
+.post{
+border: 1px solid black;
+display: flex;
+flex-direction: column;
+height: 100%;
+width: 60%;
+background-color: white;
+margin: auto;
+margin-left: 200%;
+margin-right: 200%;
+}
+.header{
+width: 100%;
+
+display:inline-flex;
+flex-flow: row nowrap;
+padding: 8px;
+}
+
+.title{
+width: 50%;
+display: inline-flex;
+
+ }
+.puntoselipse{
+    width: 350px; /*Lo hice más pequeño*/
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    margin-right: 10px;
+    padding: 15px;
+    padding-top: 0%;
+    font-size: 32px;
+   
+}
+
+.imagen img{
+height: 50%;
+width: 100%;
+margin: auto;
+padding: auto;
+}
+
+#id11{
+    width: 340px;
+}
+
+#id12{
+  
+   
+  }
+
+  .iconos i{
+font-size: 32px;
+margin: 2px;
+
+  }
+
+  .iconos{
+    margin: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .people{
+margin: 15px;
+
+  }
+  p{
+    margin: 15px;
+    margin-bottom: 25px;
+  }
+  .logo{
+    height: auto;
+    width: 20px;
+    margin: 10px;
+    font-size: 35px;
+  }
+  .text{
+    width: 20px;
+    margin: 10px;
+  }
